@@ -1,0 +1,9 @@
+---
+- name: 'RouterOS test'
+  hosts: routeros
+  #serial: true
+  gather_facts: false
+  roles:
+    - role: mikrotik
+
+
