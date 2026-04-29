@@ -4,6 +4,6 @@
   #serial: true
   gather_facts: false
   roles:
-    - role: mikrotik
+    - role: ansible-role-mikrotik
 
 
